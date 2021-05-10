@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAADBQADtQIAAjRSyVRx_kI67XVPrQI")
+    await message.reply_sticker("CAACAgEAAxkBAAEJhqRghWPsjqUKSS8_6VmdS7qpU3_lTQAC1wEAAhj9KUQdpq7AObW5uh8E")
     await message.reply_text(
         f"""<b>Hey {message.from_user.first_name}!
 \nI can play music in your group's voice chat
