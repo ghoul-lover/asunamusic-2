@@ -11,7 +11,7 @@ async def gstart(_, message: Message):
                         [
                             InlineKeyboardButton(
                                 text="Help",
-                                url="t.me/OxyXmusic_BoT?start=ghelp_{}".format(
+                                url="t.me/Music_op_bot?start=ghelp_{}".format(
                                     context.bot.username, module,
                                 ),
                             ),
