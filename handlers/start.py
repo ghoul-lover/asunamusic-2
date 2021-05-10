@@ -75,7 +75,7 @@ async def gstart(_, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Here Is Cmd Of CoffinXmusic !
+        f"""<b>Here Is Cmd Of OxyXmusic !
 ╔━━━━━━━━⊰✦⊱━━━━━━━━╗
 \n/play <song name> - play song you requested
 /dplay <song name> - play song you requested via deezer
