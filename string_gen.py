@@ -21,7 +21,7 @@ Check your Telegram saved messages section to get your SESSION_NAME
 API_ID=int(input("Enter API ID: "))
 API_HASH=input("Enter API HASH: ")
 
-with Client("OxyXmusic" ,api_id=API_ID ,api_hash=API_HASH) as pyrogram:
+with Client("Oxymusic" ,api_id=API_ID ,api_hash=API_HASH) as pyrogram:
     SESSION_NAME = "SESSION_NAME\n\n" + (pyrogram.export_session_string())
     print("\nGenerating your SESSION_NAME...\n")
     pyrogram.send_message("me", SESSION_NAME, parse_mode="html")
