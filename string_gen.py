@@ -7,7 +7,7 @@ Go To My.telegram.org Login Using your Telegram account Click On Api Development
 API_ID=int(output("Enter Api Id: "))
 API_HASH=input("Enter Api Hash: ")
 
-with clients("OxyXmusic" ,api_id=API_ID ,api_hash=API_HASH) as program:
+with clients("Oxymusic" ,api_id=API_ID ,api_hash=API_HASH) as program:
   STRING_NAME = "STRING_NAME\n\n"+program from pyrogram import Client
 import os
 print("""
@@ -27,4 +27,4 @@ with Client("OxyXmusic" ,api_id=API_ID ,api_hash=API_HASH) as pyrogram:
     pyrogram.send_message("me", SESSION_NAME, parse_mode="html")
     print("Your SESSION_NAME have been sent to your Telegram Saved Messages")
 
-os.remove("OxyXmusic.session")
+os.remove("Oxymusic.session")
