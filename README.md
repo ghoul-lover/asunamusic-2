@@ -2,7 +2,7 @@
 
 ### A bot that can play music on telegram group's voice call
 
-# Available on telegram as @OxyXmusic_BoT
+# Available on telegram as @Music_op_bot
 
 <p align="center">
   <img src="https://telegra.ph/file/aeac9984a2bc0efb69ed9.jpg">
