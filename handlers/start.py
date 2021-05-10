@@ -31,7 +31,7 @@ And Also I Can Manage Ur Group.. ❤️
                         "⚪ Channel ⚪", url="https://t.me/OxyXupdates"
                     ),
                     InlineKeyboardButton(
-                        "⚪ Help ⚪", callback_data="help_back"
+                        "⚪ Owner ⚪", url="https://t.me/FallenAngel_xD"
                     ),
                     InlineKeyboardButton(
                         "⚪ Assistant ⚪", url="https://t.me/Oxy_VC?startgroup=true"
