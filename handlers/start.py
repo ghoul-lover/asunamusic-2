@@ -16,6 +16,7 @@ async def start_(client: Client, message: Message):
 And Also I Can Manage Ur Group.. ❤️
 \nTo add in your group contact us at @OxyXsupport.
 \nUse the buttons below to know more about me.
+\nContact my owner [🔥𝕐𝖔𝖚𝖗 - 𝕯𝖆𝖉𝖉𝕪🔥](https://t.me/FallenAngel_xD)
  </b>""",
       
        
