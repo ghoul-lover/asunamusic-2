@@ -396,17 +396,17 @@ async def m_cb(b, cb):
         else:
             await cb.answer('Chat is not connected!', show_alert=True)
 
-@Client.on_message(command("play") & other_filters)
+@Client.on_message(command("ytt") & other_filters)
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **Processing**")
+    lel = await message.reply("🔄 **Add @asunamusic for play music**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "@Music_op_bot"
+        user.first_name =  "@Asunamusic"
     usar = user
     wew = usar.id
     try:
@@ -436,7 +436,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Music_op_bot to your Group and try again</b>",
+                                  "\n\nOr manually add @Asunamusic to your Group and try again</b>",
                               )
                               pass
     try:
@@ -444,7 +444,7 @@ async def play(_, message: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> @Music_op_bot Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            f"<i> @Asunamusic Userbot not in this chat, Ask admin to send /ytt command for first time or add assistant manually</i>"
         )
         return     
     sender_id = message.from_user.id
@@ -533,7 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption= "Now Playing** in {} 👻 via OxyXmusic".format(            
+        caption= "Now Playing** in {} via Asunamusic".format(            
         message.from_user.mention()
         ),
     )
@@ -542,7 +542,7 @@ async def play(_, message: Message):
 
 
 @Client.on_message(
-    filters.command("dplay")
+    filters.command("dpla")
     & filters.group
     & ~ filters.edited
 )
@@ -672,7 +672,7 @@ async def deezer(client: Client, message_: Message):
 
 
 @Client.on_message(
-    filters.command("splay")
+    filters.command("spla")
     & filters.group
     & ~ filters.edited
 )
