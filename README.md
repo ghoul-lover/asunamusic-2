@@ -48,12 +48,12 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OxyNotOp/OxyMusic)
-
+[![Deploy](https://www.herokucdn.com/de
 Use [@Pyrogram_gen_bot](https://t.me/Pyrogram_gen_bot) to get pyrogram string session
 
 
-</details>
+</details>ploy/button.svg)](https://heroku.com/deploy?template=https://github.com/callmenibba/asunamusic)
+
 
 <details>
 
